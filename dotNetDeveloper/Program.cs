@@ -1,44 +1,45 @@
-﻿using DIO_dotNetDeveloper.models; // NAMESPACE DAS CLASSES
+﻿using dotNetDeveloper.Common.models; // NAMESPACE DAS CLASSES
+
 // // ############################# MENU ITERATIVO
-string opcao;
-bool exibirMenu = true;
-while (exibirMenu == true)
-{
-    Thread.Sleep(2000); // Para esperar um pouco antes de limpar o menu
-    Console.Clear();
-    Console.WriteLine("Digite a sua opção:");
-    Console.WriteLine("1 - Cadastrar cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
+// string opcao;
+// bool exibirMenu = true;
+// while (exibirMenu == true)
+// {
+//     Thread.Sleep(2000); // Para esperar um pouco antes de limpar o menu
+//     Console.Clear();
+//     Console.WriteLine("Digite a sua opção:");
+//     Console.WriteLine("1 - Cadastrar cliente");
+//     Console.WriteLine("2 - Buscar cliente");
+//     Console.WriteLine("3 - Apagar cliente");
+//     Console.WriteLine("4 - Encerrar");
 
-    opcao = Console.ReadLine();
+//     opcao = Console.ReadLine();
 
-    switch (opcao)
-    {
-        case "1":
-            Console.WriteLine("Cadastro de cliente");
-            break;
-        case "2":
-            Console.WriteLine("Busca de cliente");
-            break;
-        case "3":
-            Console.WriteLine("Exclusão de cliente");
-            break;
-        case "4":
-            Console.WriteLine("Encerrando!");
-            exibirMenu = false;
-            // Environment.Exit(0);
-            break;
-        default:
-            break;
-    }
-    if (opcao == "4")
-    {
-        Console.WriteLine("O programa foi encerrado!");
-    }
+//     switch (opcao)
+//     {
+//         case "1":
+//             Console.WriteLine("Cadastro de cliente");
+//             break;
+//         case "2":
+//             Console.WriteLine("Busca de cliente");
+//             break;
+//         case "3":
+//             Console.WriteLine("Exclusão de cliente");
+//             break;
+//         case "4":
+//             Console.WriteLine("Encerrando!");
+//             exibirMenu = false;
+//             // Environment.Exit(0);
+//             break;
+//         default:
+//             break;
+//     }
+//     if (opcao == "4")
+//     {
+//         Console.WriteLine("O programa foi encerrado!");
+//     }
 
-}
+// }
 
 // // ############################# LAÇOS DE REPETIÇÃO
 // //*****LAÇO WHILE
@@ -87,16 +88,16 @@ while (exibirMenu == true)
 // Console.WriteLine(numeroDecremento); // Retorno: 17
 
 // // ############################# CALCULADORA 
-// Calculadora calc = new Calculadora();
-// calc.Somar(10, 5);
-// calc.Subtrair(50, 30);
-// calc.Multiplicar(40, 80);
-// calc.Dividir(41, 41);
-// calc.Potencia(3, 3);
-// calc.Seno(32);
-// calc.Coseno(54);
-// calc.Tangente(12);
-// calc.RaizQuadrada(25);
+Calculadora calc = new Calculadora();
+calc.Somar(10, 5);
+calc.Subtrair(50, 30);
+calc.Multiplicar(40, 80);
+calc.Dividir(41, 41);
+calc.Potencia(3, 3);
+calc.Seno(32);
+calc.Coseno(54);
+calc.Tangente(12);
+calc.RaizQuadrada(25);
 
 // // ############################# CONDICIONAIS IF E SWITCH
 // string letra = Console.ReadLine();
