@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIO_dotNetDeveloper", "DIO_dotNetDeveloper.csproj", "{BE403BE1-8E0E-4D2C-9ED0-62FCA518BE26}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetDeveloper", "dotNetDeveloper\dotNetDeveloper.csproj", "{BE403BE1-8E0E-4D2C-9ED0-62FCA518BE26}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DIO_dotNetDeveloper.Common", "DIO_dotNetDeveloper.Common\DIO_dotNetDeveloper.Common.csproj", "{C0F778E1-CC45-4764-A927-06DFC878EE5F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "dotNetDeveloper.Common", "dotNetDeveloper.Common\dotNetDeveloper.Common.csproj", "{C0F778E1-CC45-4764-A927-06DFC878EE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
