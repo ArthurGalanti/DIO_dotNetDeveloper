@@ -1,4 +1,59 @@
 ﻿using dotNetDeveloper.Common.models; // NAMESPACE DAS CLASSES
+// ############################# LISTAS e seus atributos
+// var listaString = new List<string>();
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+// listaString.Add("RJ");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Add("SC");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// listaString.Remove("MG");
+// Console.WriteLine($"Itens na minha lista: {listaString.Count} - Capacidade: {listaString.Capacity}");
+// //*****PERCORRNDO ARRAY COM FOREACH
+// Console.WriteLine("Percorrendo lista com FOREACH");
+// int listaForeach = 1;
+// foreach (string estado in listaString)
+// {
+//     Console.WriteLine($"Posição Nº {listaForeach} - {estado}");
+//     listaForeach++;
+// }
+// //*****PERCORRNDO ARRAY COM FOR
+// Console.WriteLine("Percorrendo lista com FOR");
+// for (int contador = 0; contador < listaString.Count; contador++)
+// {
+//     Console.WriteLine($"Posição Nº {contador + 1} - {listaString[contador]}");
+// }
+// ############################# ARRAYS
+// var arrayInteiros = new int[3];
+// arrayInteiros[0] = 15;
+// arrayInteiros[1] = 3;
+// arrayInteiros[2] = 5;
+// //*****CRIAR UM ARRAY E COPIAR VALORES DE OUTRO
+// var arrayInteirosCopy = new int[arrayInteiros.Length]; // criando um novo array com a mesma quantidade
+// Array.Copy(arrayInteiros, arrayInteirosCopy, 2); // copiando somente 2 posiçoes de um array para outro 
+// //*****USANDO MÉTODO RESIZE PARA AUMENTAR DUPLICAR ARRAY COM ALTERAÇÃO DE CAPACIDADE
+// Array.Resize(ref arrayInteiros, arrayInteiros.Length * 2); // cria um novo array utilizando a nova capacidade com os elementos antigos
+// //*****PERCORRNDO ARRAY COM FOREACH
+// Console.WriteLine("Percorrendo array com FOREACH");
+// int arrayForeach = 1;
+// foreach (int valor in arrayInteiros)
+// {
+//     Console.WriteLine($"Posição Nº  {arrayForeach} - {valor}");
+//     contadorForeach++;
+// }
+// //*****PERCORRENDO ARRAY COM FOR
+// Console.WriteLine("Percorrendo array com FOR");
+// for (int contador = 0; contador < arrayInteiros.Length; contador++)
+// {
+//     Console.WriteLine($"Posição Nº  {contador + 1} - {arrayInteiros[contador]}");
+// }
+// //*****DECLARAÇÕES VÁLIDAS DE ARRAYS
+// int[] arrayVaziaNumeros = new int[2];
+// var arrayVaziaNumeros2 = new int[2];
+// int[] arrayNumeros1 = new int[] { 1, 2 };
+// int[] arrayNumeros2 = { 1, 2 };
+// var arrayNumeros3 = new int[] { 1, 2 };
 
 // // ############################# MENU ITERATIVO
 // string opcao;
@@ -88,16 +143,16 @@
 // Console.WriteLine(numeroDecremento); // Retorno: 17
 
 // // ############################# CALCULADORA 
-Calculadora calc = new Calculadora();
-calc.Somar(10, 5);
-calc.Subtrair(50, 30);
-calc.Multiplicar(40, 80);
-calc.Dividir(41, 41);
-calc.Potencia(3, 3);
-calc.Seno(32);
-calc.Coseno(54);
-calc.Tangente(12);
-calc.RaizQuadrada(25);
+// Calculadora calc = new Calculadora();
+// calc.Somar(10, 5);
+// calc.Subtrair(50, 30);
+// calc.Multiplicar(40, 80);
+// calc.Dividir(41, 41);
+// calc.Potencia(3, 3);
+// calc.Seno(32);
+// calc.Coseno(54);
+// calc.Tangente(12);
+// calc.RaizQuadrada(25);
 
 // // ############################# CONDICIONAIS IF E SWITCH
 // string letra = Console.ReadLine();
@@ -173,8 +228,9 @@ calc.RaizQuadrada(25);
 // Console.WriteLine("Valor da variável condiçao é: " + condicao);
 
 // // ############################# INSTÂNCIANDO A CLASSE PESSOA E ATRIBUINDO VALORES PARA AS PROPRIEDADES
-// Pessoa pessoa1 = new Pessoa();
-// pessoa1.Nome = "Arthur";
-// pessoa1.Idade = 22;
-// pessoa1.Apresentar();
+Pessoa pessoa1 = new Pessoa();
+pessoa1.Nome = "Arthur";
+pessoa1.Idade = 22;
+Console.WriteLine(pessoa1.Apresentar("Análise e Desenvolvimento de Sistemas"));
+
 

@@ -5,6 +5,9 @@ using System.Threading.Tasks;
 
 namespace dotNetDeveloper.Common.models
 {
+    /// <summary>
+    /// Representa uma calculadora.
+    /// </summary>
     public class Calculadora
     {
         public void Somar(int x, int y)
